@@ -1,0 +1,15 @@
+$breakpoint-desktop: 1280px !default;
+$breakpoint-mobile: 0 !default;
+$breakpoint-tablet: 768px !default;
+$container-max-width: 1280px !default;
+
+$breakpoints: (
+    desktop: $breakpoint-desktop,
+    mobile: $breakpoint-mobile,
+    tablet: $breakpoint-tablet,
+) !default;
+
+$containers: (
+    max-width: $container-max-width,
+) !default;
+
