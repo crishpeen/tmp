@@ -1,0 +1,18 @@
+{
+  "name": "@crishpeen/tmp-icons",
+  "version": "0.0.0",
+  "description": "Icons",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "directory": "dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crishpeen/tmp.git",
+    "directory": "packages/icons"
+  },
+  "scripts": {
+    "fix-fill": "node ./scripts/fixFill.js"
+  }
+}
